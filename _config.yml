@@ -1,8 +1,22 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: zkFHE
+description: A collection of ressources on combining fully homomorphic encryption and zero-knowledge proofs for flexible and robust computation on encrypted data fit for the real world. 
 theme: just-the-docs
+color_scheme: zkfhe_light
 
-url: https://just-the-docs.github.io
+url: https://zkFHE.github.io
+logo: "/assets/images/zkFHE.png"
+favicon_ico: "/assets/images/favicon.ico"
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+search_enabled: true
+
+mermaid: 
+  version: "10.9.0"
+
+ga_tracking: G-F930FL5DGM
+ga_tracking_anonymize_ip: true
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

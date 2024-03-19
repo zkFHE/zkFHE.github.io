@@ -1,0 +1,17 @@
+@import "./color_schemes/light";
+@import "./custom/setup.scss";
+
+a {
+    background-image: $link-gradient !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+
+a:not([class]) {
+    text-decoration-color: $link-color !important;
+}
+
+body {
+    font-family: 'Helvetica Neue' !important;
+    font-weight: 400;
+}
